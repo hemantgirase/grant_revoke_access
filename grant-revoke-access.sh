@@ -7,7 +7,7 @@ if [[ -z "$1" ]];then
 elif [[ $1 == "help" || $1 == "-help" || $1 == "--help" || $1 == "h" || $1 == "-h" || $1 == "--h" ]];then
        echo "Usage: 
              This script is used to Grant or Revoke access to the users.
-                       ./grant_revoke_access.sh [action]
+                       ./grant-revoke-access.sh [action]
              Below are the valid actions
              - grant
              - revoke "
